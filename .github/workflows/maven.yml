@@ -191,6 +191,3 @@ jobs:
         with:
           name: Movecraft_Dev-Build
           path: staging/Movecraft_*.jar
-
-      - name: BuildCompile
-        run: mvn -T 1C clean install
